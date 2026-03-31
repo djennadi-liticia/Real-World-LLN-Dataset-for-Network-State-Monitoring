@@ -52,8 +52,8 @@ Each file contains all recorded interactions between the corresponding node and 
 
 The following figures illustrate the physical deployment of the sensor nodes:
 
-- `deployment_dataset1.png`
-- `deployment_dataset2.png`
+- `deployment_1.png`
+- `deployment_2.png`
 
 These schematics show node placement and help interpret spatial and environmental effects on RSSI and energy consumption.
 
