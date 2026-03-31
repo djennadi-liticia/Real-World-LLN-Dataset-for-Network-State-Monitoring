@@ -1,5 +1,4 @@
-# DATA
-# Real-World LLN Dataset for Network State
+# Real-World LLN Dataset for Link-State and Node-State Monitoring in IoT Networks
 
 ## Overview
 
