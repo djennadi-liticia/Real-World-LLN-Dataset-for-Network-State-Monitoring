@@ -34,7 +34,7 @@ The reported data correspond to an approximately **two-week period** in indoor o
 
 The datasets were collected from a real-world deployment conducted in the offices of the **L2TI laboratory**.
 
-The deployment area covers approximately **[X] m²**. The floor plan is represented using a uniform grid, where each cell corresponds to a physical area of **1 m × 1 m**. This representation facilitates the interpretation of spatial relationships between nodes and their impact on link quality.
+The deployment area covers approximately **558.19 m²**. The floor plan is represented using a uniform grid, where each cell corresponds to a physical area of **1 m × 1 m**. This representation facilitates the interpretation of spatial relationships between nodes and their impact on link quality.
 
 The deployment schematics provided in this repository illustrate the position of each sensor node within the environment. The identifiers shown in these figures correspond directly to the node IDs used in the dataset.
 
