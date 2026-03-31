@@ -91,7 +91,7 @@ Each dataset is provided as a structured CSV file with the following columns:
 
 | Column               | Description |
 |----------------------|-------------|
-| `timestamp`          | Time of the measurement (1-minute resolution) |
+| `timestamp`          | Time of the measurement (~1-minute resolution) |
 | `neighbor_id`        | Identifier of the neighboring node |
 | `rssi`               | Received Signal Strength Indicator (link quality) |
 | `energy_consumption` | Energy consumed during the previous interval (in mJ) |
