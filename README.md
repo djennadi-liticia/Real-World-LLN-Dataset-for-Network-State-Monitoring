@@ -3,7 +3,7 @@
 
 ## Overview
 
-This repository provides real-world datasets collected from an indoor IoT deployment, used to study network state evolution of Low-power and Lossy Networks (LLNs).
+This repository provides real-world datasets collected from an indoor IoT deployment, used to study network-state evolution in Low-power and Lossy Networks (LLNs).
 
 The data include both **link-state** (RSSI) and **node-state** (energy consumption) metrics.
 
@@ -16,9 +16,9 @@ The datasets were collected from two experimental IoT deployments:
 - **Dataset 1**: 5 Zolertia sensor nodes  
 - **Dataset 2**: 9 Zolertia sensor nodes  
 
-The data reported corespond to (presque) **two-week period** in indoor office environments.
+The reported data correspond to an approximately **two-week period** in indoor office environments.
 
-### Network characteristics
+### Network Characteristics
 
 - **Hardware**: Zolertia RE-Mote Revision B  
 - **Operating System**: Contiki-NG  
@@ -52,14 +52,14 @@ A Raspberry Pi is connected to each node to:
 - store data,
 - ensure synchronization.
 
-Each record is generated approximatly **every minute** and includes:
+Each record is generated approximately **every minute** and includes:
 
 - timestamp
 - neighboring nodes
 - RSSI values
 - energy consumption
 
-Energy consumption is computed from time spent in:
+Energy consumption is computed from the time spent in:
 
 - transmission (TX)
 - reception (RX)
@@ -72,19 +72,15 @@ Energy consumption is computed from time spent in:
 
 Each dataset is provided as a structured file (e.g., CSV) with the following columns:
 
-| Column              | Description |
-|--------------------|------------|
-| `timestamp`         | Time of the measurement (1-minute resolution) |
-| `neighbor_id`       | Identifier of the neighboring node |
-| `rssi`              | Received Signal Strength Indicator (link quality) |
-| `energy_consumption`| Energy consumed during the previous interval (in mJ) |
+| Column               | Description |
+|----------------------|-------------|
+| `timestamp`          | Time of the measurement (1-minute resolution) |
+| `neighbor_id`        | Identifier of the neighboring node |
+| `rssi`               | Received Signal Strength Indicator (link quality) |
+| `energy_consumption` | Energy consumed during the previous interval (in mJ) |
 
 ### Notes
 
-- Each row represents a **node–neighbor interaction at a given timestamp**.
+- Each row represents a **node-neighbor interaction at a given timestamp**.
 - RSSI values describe **link-state dynamics**.
 - Energy consumption describes **node-state evolution**.
----
-
-  year={...}
-}
