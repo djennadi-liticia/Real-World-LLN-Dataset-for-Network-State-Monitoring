@@ -32,7 +32,7 @@ The reported data correspond to an approximately **two-week period** in indoor o
 
 ## Deployment Details
 
-The datasets were collected from a real-world deployment conducted in the offices of the **L2TI laboratory, Sorbonne Paris Nord University**.
+The datasets were collected from a real-world deployment conducted in the offices of the **L2TI laboratory, Sorbonne Paris Nord University, France**.
 
 The deployment area covers approximately **558.19 m²**. The floor plan is represented using a uniform grid, where each cell corresponds to a physical area of **1 m × 1 m**. This representation facilitates the interpretation of spatial relationships between nodes and their impact on link quality.
 
